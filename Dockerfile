@@ -1,5 +1,5 @@
-FROM ubuntu:xenial
-MAINTAINER CUI Wei <ghostplant@qq.com>
+FROM nvidia/cuda:9.0-cudnn7-runtime
+# THANKS TO ORIGINAL MAINTAINER CUI Wei <ghostplant@qq.com>
 
 ENV SESSION=docker
 
